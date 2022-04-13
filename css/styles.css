@@ -1,0 +1,209 @@
+:root {
+  --primary-bgc: #ffffff;
+  --secondary-bgc: #f5f4fa;
+  --accent-bgc: #2f303a;
+
+  --text-color: #757575;
+  --primary-title-color: #212121;
+  --secondary-title-color: #ffffff;
+  --footer-links-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --hover-color: #2196f3;
+
+  --primary-btn-bgc-color: #f5f4fa;
+  --secondary-btn-bgc-color: #2196f3;
+  --primary-btn-text-color: #212121;
+  --secondary-btn-text-color: #ffffff;
+  --hero-btn-hover-bgc: #188ce8;
+}
+
+/*---------------------- BASIC STYLES ------------------------- */
+
+body {
+  color: var(--text-color);
+  background-color: var(--primary-bgc);
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.list {
+  list-style: none;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.btn {
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/*---------------------- HEADER STYLES START------------------------- */
+
+.accent-logo {
+  color: var(--accent-color);
+}
+.header-logo {
+  color: #000;
+
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.header-link {
+  color: var(--primary-title-color);
+}
+.current-link {
+  color: var(--accent-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--hover-color);
+}
+.auth-link {
+  color: var(--text-color);
+}
+.auth-link:hover,
+.auth-link:focus,
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--hover-color);
+}
+
+/*---------------------- HEADER STYLES END------------------------- */
+
+/*---------------------- INDEX STYLES START------------------------- */
+
+.hero {
+  background-color: var(--accent-bgc);
+}
+.hero-title {
+  color: var(--secondary-title-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.hero-button {
+  color: var(--secondary-btn-text-color);
+  background-color: var(--secondary-btn-bgc-color);
+
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hero-btn-hover-bgc);
+}
+
+.features-subtitle {
+  color: var(--primary-title-color);
+
+  font-size: 14px;
+  line-height: 1.14;
+}
+.section-title {
+  color: var(--primary-title-color);
+
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team {
+  background-color: var(--secondary-bgc);
+}
+.team-subtitle {
+  color: var(--primary-title-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/*---------------------- INDEX STYLES END------------------------- */
+
+/*---------------------- PORTFOLIO STYLES START------------------------- */
+
+.works-button {
+  color: var(--primary-btn-text-color);
+  background-color: var(--primary-btn-bgc-color);
+
+  font-weight: 500;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+.works-button:hover,
+.works-button:focus {
+  color: var(--secondary-btn-text-color);
+  background-color: var(--secondary-btn-bgc-color);
+}
+.examples-link {
+  text-decoration: none;
+}
+.works-subtitle {
+  color: var(--primary-title-color);
+
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.works-text {
+  color: var(--text-color);
+
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+/*---------------------- PORTFOLIO STYLES END------------------------- */
+
+/*---------------------- FOOTER STYLES ---------------------------- */
+
+.footer {
+  background-color: var(--accent-bgc);
+}
+.footer > .header-logo {
+  color: #ffffff;
+}
+.adress {
+  color: #ffffff;
+
+  line-height: 1.71;
+  font-style: normal;
+}
+.footer-link {
+  color: var(--footer-links-color);
+
+  line-height: 1.71;
+  text-decoration: none;
+}
