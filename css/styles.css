@@ -185,8 +185,14 @@ body {
 
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 
   margin-bottom: 10px;
+}
+.features-text {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.71;
 }
 .features-item {
   flex-basis: calc((100%-30px * 3) / 4);
@@ -295,6 +301,10 @@ body {
   font-size: 16px;
   line-height: 1.88;
 }
+.examples-text {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+}
 .examples-list {
   flex-wrap: wrap;
   margin: -15px;
@@ -305,7 +315,6 @@ body {
 }
 .examples-img {
   display: block;
-  margin-bottom: 20px;
 }
 /* Альтернативний варіант сітки */
 /* .examples-item:not(:nth-child(3n + 1)) {
