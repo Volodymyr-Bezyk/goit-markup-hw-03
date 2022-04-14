@@ -240,11 +240,15 @@ body {
   font-size: 16px;
   line-height: 1.19;
 }
+.team-group-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
 .team-item:not(:first-child) {
   margin-left: 30px;
 }
 .team-item {
-  padding-bottom: 30px;
   display: block;
 
   background-color: var(--primary-bgc);
@@ -253,7 +257,6 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .team-img {
-  margin-bottom: 30px;
   display: block;
 }
 /*---------------------- INDEX STYLES END------------------------- */
